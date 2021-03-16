@@ -36,9 +36,9 @@
         android:id="@+id/tv_time"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="@string/time"
         android:textColor="@color/black"
-        android:textSize="17sp"
+        android:textSize="20sp"
+        android:hint="@string/to_check_time_click_below"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -62,9 +62,12 @@
         android:id="@+id/TV_battery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
         android:hint="@string/battery"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/tv_time"
         app:layout_constraintEnd_toEndOf="@+id/tv_time"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tv_time" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,7 +11,7 @@ class BoundService : Service() {
 
     private val myBinder = MyLocalBinder()
 
-    override fun onBind(intent: Intent?): IBinder? {
+    override fun onBind(intent: Intent?): IBinder {
         return myBinder
     }
 
